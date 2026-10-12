@@ -61,24 +61,25 @@ Ten levels, 1975–2000, three.js bundled locally so it plays offline. 0 JS erro
 - **705** generated reports · **50** scheduled tasks · daily unattended run with automatic rollback
 - **3-node** agent cluster, ~181,000 gossip messages, 0 rejected, live WebSocket feed
 
-## What I do for clients — fixed scope, fixed price
+## What I am looking for
 
-| Offer | Scope | Price |
-|---|---|---|
-| **AI visibility audit** | How ChatGPT / Perplexity / Google AI cite you today; what blocks indexing; priority fixes. Written report + evidence | **€150–300** |
-| **GEO implementation** | Structured data, llms.txt, canonical and indexing fixes, content structure for AI citation — verified live | **€300–600** |
-| **Prototype build** | One working feature or product slice: idea → running software + documentation | **€700–1,500** |
-| **Full platform** | Custom Next.js platform with AI assistant, calculators, integrations | from **€1,200** |
-| **Ongoing care** | Monitoring, reporting, fixes, visibility work | **€49–100 / month** |
+A company that will trust me with its products and pay me regularly:
 
-Payment: 50% at start, 50% when the delivered scope is verified. Invoiced B2B from Serbia.
-No equity-only arrangements.
+- **Full-time remote role**, or a **long-term B2B contract with a fixed monthly fee**, plus performance
+  bonuses if the work earns them.
+- **Async-first**, written communication, end-to-end ownership — I take an idea and return working
+  software with documentation.
+- **Or: buy a finished product.** If your roadmap already needs one of the systems above, acquiring it
+  is faster and cheaper than building it from zero. Ask me which ones are available.
+
+I would rather be judged on the systems above than on a price list. Contract type and numbers we
+agree once we agree on the scope and the role.
 
 ## How I work
 
 1. You send the problem or the idea.
-2. I return a short specification and a fixed price within 48 h.
-3. We agree the scope; you pay 50% up front, 50% on verified delivery.
+2. I return a short specification and a proposal within 48 h.
+3. We agree the scope, the role and the terms.
 4. You receive the software **and** the verification document — every check reproducible.
 
 ## Technology

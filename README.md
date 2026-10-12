@@ -3,67 +3,93 @@
 **Independent · AI-native development · Async-first · B2B contracts through a registered company in Serbia**
 
 I design and build AI products end to end: product architecture, functional prototypes, distributed
-AI systems, and automation that runs unattended. I work asynchronously in writing — fixed scope,
-agreed deadlines, and a verification document instead of meetings.
+AI systems, and automation that runs unattended. I work asynchronously, in writing, on fixed scope —
+and I document every result so it can be verified instead of trusted.
 
-Contact: **dejanswat@gmail.com**
+**CV / portfolio:** https://nomorequiet.com/dejan · **How my machine works:** https://nomorequiet.com/masina · **Public evidence:** https://nomorequiet.com/proof/
+**Contact:** dejanswat@gmail.com
 
 ---
 
-## What is live right now
+## Projects — each one has its own page
 
-| System | What it is | Link |
-|---|---|---|
-| **Braincore Pro** | Decentralized AI agent swarm — 3 nodes, custom UDP gossip, CRDT board, pheromone coordination, zero npm dependencies | <https://braincore.pro/> · [live dashboard](https://live.braincore.pro/live) |
-| **NoMoreQuiet** | Agency platform in 6 languages (English default) with a trained AI assistant, estimators and inline lead capture | <https://nomorequiet.com/> |
-| **AI Command Center** | Commercial SaaS: SEO/GEO cockpit, analytics board, AI Commander — subscription per machine | <https://aicommandcenter.pro/> |
-| **Auto Magistar** | Automotive platform: valuation, VIN, parts, commission sales, service workflows, AI assistant | <https://automagistar.com/> |
-| **BeoPro Properties** | Real-estate platform: listings, rent analysis, owner and tenant flows, multilingual | <https://beoproproperties011.com/> |
-| **OBJECT A-90** | Playable 10-level strategy campaign, three.js bundled locally (works offline), 0 JS errors | <https://igra.nomorequiet.com/> |
+Every entry below is live. Each project page states what it is, what has been measured, and links to
+the running system or to public evidence.
+
+### [Braincore Pro — decentralized AI agent swarm](https://nomorequiet.com/projekti/braincore-pro)
+`https://nomorequiet.com/projekti/braincore-pro`
+A multi-node agent cluster with **no master node**: nodes find each other over custom UDP gossip,
+share one CRDT board, and the least busy node takes the task. Pheromone trails with real exponential
+decay coordinate the work. **Zero runtime npm dependencies.**
+→ Live dashboard <https://live.braincore.pro/live> · Source + tests <https://github.com/dejanswat-sketch/braincore-pro>
+
+### [Full Visibility Machine — automated SEO/GEO operations](https://nomorequiet.com/projekti/full-vidljivost)
+`https://nomorequiet.com/projekti/full-vidljivost`
+A scheduled system that measures a site, repairs what is broken, **verifies the repair on the live
+site**, and reports — unattended across five sites. If post-deploy verification fails, it reverts the
+change itself.
+→ **171** modules · **42** guard suites · **55/55** tests green · **11/11** pages verified live · public evidence https://nomorequiet.com/proof/
+
+### [AI Command Center — commercial SaaS](https://nomorequiet.com/projekti/ai-command-center)
+`https://nomorequiet.com/projekti/ai-command-center`
+A product with three separated surfaces (SEO/GEO cockpit, analytics board, AI Commander) sold per
+machine, with machine-readable pricing so AI assistants quote correct numbers.
+
+### [NoMoreQuiet — a website that qualifies leads by itself](https://nomorequiet.com/projekti/nomorequiet)
+`https://nomorequiet.com/projekti/nomorequiet`
+Six languages (English default), a trained assistant, interactive estimators, and inline lead capture
+that delivers straight to e-mail — verified on the live site.
+
+### [Auto Magistar — automotive platform](https://nomorequiet.com/projekti/auto-magistar)
+`https://nomorequiet.com/projekti/auto-magistar`
+Valuation, VIN and parts lookup, commission sales, service workflows and an AI assistant in one platform.
+
+### [BeoPro Properties 011 — real-estate platform](https://nomorequiet.com/projekti/beopro-properties)
+`https://nomorequiet.com/projekti/beopro-properties`
+Listings, rent analysis, multilingual interface and separate flows for owners and tenants.
+
+### [OBJECT A-90 — playable strategy campaign](https://nomorequiet.com/projekti/object-a-90)
+`https://nomorequiet.com/projekti/object-a-90`
+Ten levels, 1975–2000, three.js bundled locally so it plays offline. 0 JS errors across all pages.
+
+---
 
 ## Measured, not promised
 
 - **171** operational modules, **42** dedicated guard suites, **55/55** guard tests green
-- **11/11** published pages verified on the live sites: HTTP 200 → canonical → JSON-LD → llms.txt
-- **12** machine-generated proof pages per domain: <https://nomorequiet.com/proof/>
-- Daily unattended run (83 steps) with automatic rollback if post-deploy verification fails
-- **3-node** agent cluster, ~181,000 gossip messages, 0 rejected, WebSocket live feed
+- **11/11** published pages verified on live sites: HTTP 200 → canonical → JSON-LD → llms.txt
+- **705** generated reports · **50** scheduled tasks · daily unattended run with automatic rollback
+- **3-node** agent cluster, ~181,000 gossip messages, 0 rejected, live WebSocket feed
 
-Full evidence with reproducible commands: **[Proof Sheet](https://github.com/dejanswat-sketch/full-vidljivost-dokaz)**
-
-## Source code you can inspect
-
-- **[braincore-pro](https://github.com/dejanswat-sketch/braincore-pro)** — the swarm itself: `src/` (gossip, CRDT, orchestration), `tests/`, and a recorded test run (`t4-1997395602.txt`) showing node discovery, CRDT convergence and single-executor claims under simultaneous claims.
-- **[full-vidljivost-dokaz](https://github.com/dejanswat-sketch/full-vidljivost-dokaz)** — the evidence layer of the visibility machine.
-
-## What I do for clients
+## What I do for clients — fixed scope, fixed price
 
 | Offer | Scope | Price |
 |---|---|---|
-| **AI visibility audit** | How ChatGPT / Perplexity / Google AI cite you today; what blocks indexing; priority fix list. Written report + evidence | **€150–300** |
+| **AI visibility audit** | How ChatGPT / Perplexity / Google AI cite you today; what blocks indexing; priority fixes. Written report + evidence | **€150–300** |
 | **GEO implementation** | Structured data, llms.txt, canonical and indexing fixes, content structure for AI citation — verified live | **€300–600** |
 | **Prototype build** | One working feature or product slice: idea → running software + documentation | **€700–1,500** |
 | **Full platform** | Custom Next.js platform with AI assistant, calculators, integrations | from **€1,200** |
 | **Ongoing care** | Monitoring, reporting, fixes, visibility work | **€49–100 / month** |
 
-All engagements: **fixed scope, fixed price, written definition of done**, delivered against agreed
-milestones. Invoiced B2B through my company in Serbia. No equity-only arrangements.
+Payment: 50% at start, 50% when the delivered scope is verified. Invoiced B2B from Serbia.
+No equity-only arrangements.
 
 ## How I work
 
-1. You describe the problem (or send an idea).
+1. You send the problem or the idea.
 2. I return a short specification and a fixed price within 48 h.
-3. We agree on the scope; you pay 50% at start, 50% when the delivered scope is verified.
-4. You receive the software **and** a verification document — every check reproducible.
+3. We agree the scope; you pay 50% up front, 50% on verified delivery.
+4. You receive the software **and** the verification document — every check reproducible.
 
 ## Technology
 
 Next.js · React · TypeScript · Node.js (zero-dependency services where it matters) · SQLite ·
 UDP/dgram gossip · CRDT (LWW + vector clocks) · WebSocket (RFC 6455) · Google Search Console &
-Analytics APIs · Cloudflare · IndexNow · Windows/Linux service automation · encrypted backups
+Analytics APIs · PageSpeed · IndexNow · Cloudflare · Linux & Windows automation · encrypted backups ·
+git-based deploy with automatic rollback
 
 ---
 
 *Honest note: I report technical results (built, deployed, verified) separately from business
-outcomes. Organic traffic and AI citations from my visibility machine are early — I state that
-openly rather than inflate it.*
+outcomes. Organic traffic and AI citations from the visibility machine are still early — I state that
+openly rather than inflate it. I am looking for my first paid engagement of this kind.*
